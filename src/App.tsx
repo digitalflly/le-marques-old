@@ -156,7 +156,7 @@ function Contact() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/lemarques">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contato" element={<Contact />} />
