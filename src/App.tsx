@@ -89,7 +89,7 @@ function Home() {
                 <img 
                   src={link.image} 
                   alt={link.title}
-                  className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                  className="w-full h-full object-cover opacity-100 group-hover:opacity-90 transition-opacity"
                   referrerPolicy="no-referrer"
                 />
               </div>
